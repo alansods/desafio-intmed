@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Button = styled.button`
+export const Button = styled.button`
   width: 100%;
   height: 80px;
   background-color: blue;
@@ -9,11 +9,8 @@ const Button = styled.button`
   font-weight: bold;
 `
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Login</h1>
-      <Button />
-    </div>
-  );
-}
+export const Div = styled.div`
+  background-color: orange;
+  height: 30px;
+  width: auto;
+`
